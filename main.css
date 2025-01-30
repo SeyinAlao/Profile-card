@@ -48,3 +48,8 @@ body{
     text-decoration: none;
 }
 
+@media (max-width: 600px) {
+    .profile-card {
+        width: 95%; 
+    }
+}
