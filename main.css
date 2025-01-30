@@ -20,7 +20,7 @@ body{
                  0 0 80px rgba(255, 102, 0, 0.4);;
     padding: 20px;
     text-align: center;
-    width: 600px;
+    width: 400px;
     transition: transform 0.3s ease-in-out;
 }
 .profile-card:hover{
@@ -48,7 +48,7 @@ body{
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .profile-card {
         width: 95%; 
     }
