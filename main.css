@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-image: url(warreva.png);
+    background-size: cover;
+    background-position: center;
+    font-family: monospace, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.profile-card{
+    background:  rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(138, 43, 226, 0.6), 
+                 0 0 50px rgba(0, 102, 255, 0.4),  
+                 0 0 80px rgba(255, 102, 0, 0.4);;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    transition: transform 0.3s ease-in-out;
+}
+.profile-card:hover{
+    transform: scale(1.1)
+}
+
+.profile-picture{
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+   
+}
+.profile-picture:hover{
+    transform: scale(1.2);
+}
+.social-links{
+    margin-top: 5px;
+}
+
+.social-links a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
